@@ -13,7 +13,7 @@
 
 [Таблица]:https://github.com/b00mmer/lab2/blob/main/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0%20%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%D1%86%D0%B8%D0%B8.JPG "Таблица адресации"
 
-##Часть 1: Настройка основных параметров устройства
+## Часть 1: Настройка основных параметров устройства
 
 1. [Сетевые параметры маршрутизатора R1](https://github.com/b00mmer/lab2/blob/main/R1_running-config.txt)
 2. [Сетевые параметры маршрутизатора R2](https://github.com/b00mmer/lab2/blob/main/R2_running-config.txt)
