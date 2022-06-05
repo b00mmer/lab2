@@ -20,30 +20,6 @@
 5. [Сетевые параметры маршрутизатора R3](https://github.com/b00mmer/lab2/blob/main/R3_running-config.txt)
 6. Сетевые параметры Server 0
 
-`FastEthernet0 Connection:(default port)
+![alt-текст][Server0]
 
- Connection-specific DNS Suffix..: 
- 
- Physical Address................: 00E0.A35B.677C 
- 
- Link-local IPv6 Address.........: FE80::2E0:A3FF:FE5B:677C 
- 
- IPv6 Address....................: :: 
- 
- IPv4 Address....................: 192.168.1.3
- 
- Subnet Mask.....................: 255.255.255.0
- 
- Default Gateway.................: 192.168.1.1
- 
- DHCP Servers....................: 0.0.0.0
- 
- DHCPv6 IAID.....................: 
- 
- DHCPv6 Client DUID..............: 00-01-00-01-91-3B-D8-21-00-E0-A3-5B-67-7C
- 
- DNS Servers.....................: :: 
- 
- 0.0.0.0 `
-
-
+[Server0]:https://github.com/b00mmer/lab2/blob/main/Server0.JPG "Сетевые параметры Server 0"
