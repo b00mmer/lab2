@@ -105,9 +105,9 @@ Exec commands:
     GigabitEthernet0/0/2   unassigned      YES unset  administratively down down   
     Vlan1                  unassigned      YES unset  administratively down down  
 
-R1#show ip route   
-           ^   
-% Invalid input detected at '^' marker.  
+>R1#show ip route   
+>           ^   
+>% Invalid input detected at '^' marker.  
 
 
 
