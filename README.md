@@ -109,29 +109,53 @@ Minimum = 0ms, Maximum = 17ms, Average = 7ms __
 
 
 R1#show parser view
+
 Current view is 'tech'
+
 R1#?
+
 Exec commands:
+
   disable     Turn off privileged commands
+  
   enable      Turn on privileged commands
+  
   exit        Exit from the EXEC
+  
   logout      Exit from the EXEC
+  
   show        Show running system information
+  
 R1#
+
 R1#sh ?
+
   interfaces         Interface status and configuration
+  
   ip                 IP information
+  
   parser             Show parser commands
+  
   version            System hardware and software status
+  
 R1#show ip interface brief 
+
 Interface              IP-Address      OK? Method Status                Protocol 
+
 GigabitEthernet0/0/0   10.1.1.1        YES manual up                    up 
+
 GigabitEthernet0/0/1   192.168.1.1     YES manual up                    up 
+
 GigabitEthernet0/0/2   unassigned      YES unset  administratively down down 
+
 Vlan1                  unassigned      YES unset  administratively down down
+
 R1#show ip route 
+
            ^
+	   
 % Invalid input detected at '^' marker.
+
 
 
 
