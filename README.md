@@ -105,6 +105,7 @@ Minimum = 0ms, Maximum = 17ms, Average = 7ms __
 
 1. [Сетевые параметры маршрутизатора R1](https://github.com/b00mmer/lab2/blob/main/R1_running-config_1.txt)
 2. [Сетевые параметры маршрутизатора R3](https://github.com/b00mmer/lab2/blob/main/R3_running-config_1.txt)
+3. [Файл CPT](https://github.com/b00mmer/lab2/blob/main/lab2_v1.pkt)
 
 
 
