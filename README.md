@@ -62,7 +62,7 @@ Tracing route to 192.168.3.3 over a maximum of 30 hops:
   4   0 ms      10 ms     11 ms     192.168.3.3  
 Trace complete.  
 
-C:\>ping 192.168.3.3
+C:\>ping 192.168.3.3  
 Pinging 192.168.3.3 with 32 bytes of data:  
 Reply from 192.168.3.3: bytes=32 time<1ms TTL=125  
 Reply from 192.168.3.3: bytes=32 time=1ms TTL=125  
@@ -81,47 +81,29 @@ Minimum = 0ms, Maximum = 17ms, Average = 7ms
 3. [Файл CPT](https://github.com/b00mmer/lab2/blob/main/lab2_v1.pkt)
 
 
-R1#show parser view
-
-Current view is 'tech'
-
-R1#?
-
-Exec commands:
-
-  disable     Turn off privileged commands
+R1#show parser view  
+Current view is 'tech'  
+R1#?  
+Exec commands:  
+  disable     Turn off privileged commands  
+  enable      Turn on privileged commands  
+  exit        Exit from the EXEC  
+  logout      Exit from the EXEC  
+  show        Show running system information  
   
-  enable      Turn on privileged commands
-  
-  exit        Exit from the EXEC
-  
-  logout      Exit from the EXEC
-  
-  show        Show running system information
-  
-R1#
+ R1#  
+ R1#sh ?  
+  interfaces         Interface status and configuration  
+  ip                 IP information  
+  parser             Show parser commands  
+  version            System hardware and software status  
 
-R1#sh ?
-
-  interfaces         Interface status and configuration
-  
-  ip                 IP information
-  
-  parser             Show parser commands
-  
-  version            System hardware and software status
-  
-R1#show ip interface brief 
-
-Interface              IP-Address      OK? Method Status                Protocol 
-
-GigabitEthernet0/0/0   10.1.1.1        YES manual up                    up 
-
-GigabitEthernet0/0/1   192.168.1.1     YES manual up                    up 
-
-GigabitEthernet0/0/2   unassigned      YES unset  administratively down down 
-
-Vlan1                  unassigned      YES unset  administratively down down
+ R1#show ip interface brief   
+    Interface              IP-Address      OK? Method Status                Protocol  
+    GigabitEthernet0/0/0   10.1.1.1        YES manual up                    up   
+    GigabitEthernet0/0/1   192.168.1.1     YES manual up                    up   
+    GigabitEthernet0/0/2   unassigned      YES unset  administratively down down   
+    Vlan1                  unassigned      YES unset  administratively down down  
 
 R1#show ip route 
 
