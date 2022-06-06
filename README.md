@@ -42,55 +42,37 @@ Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:  
 Minimum = 0ms, Maximum = 10ms, Average = 5ms  
 
-C:\>tracert 192.168.1.3
+C:\>tracert 192.168.1.3  
 
-Tracing route to 192.168.1.3 over a maximum of 30 hops: 
+Tracing route to 192.168.1.3 over a maximum of 30 hops:   
+  1   0 ms      0 ms      0 ms      192.168.3.1  
+  2   1 ms      1 ms      0 ms      10.2.2.2    
+  3   0 ms      0 ms      0 ms      10.1.1.1    
+  4   0 ms      0 ms      13 ms     192.168.1.3  
+Trace complete.  
+ Server0 -> PC0  
+Cisco Packet Tracer SERVER Command Line 1.0  
 
-  1   0 ms      0 ms      0 ms      192.168.3.1
+C:\>tracert 192.168.3.3  
 
-  2   1 ms      1 ms      0 ms      10.2.2.2
-  
-  3   0 ms      0 ms      0 ms      10.1.1.1
-  
-  4   0 ms      0 ms      13 ms     192.168.1.3
-
-Trace complete.
-
- Server0 -> PC0
-
-Cisco Packet Tracer SERVER Command Line 1.0
-
-C:\>tracert 192.168.3.3
-
-Tracing route to 192.168.3.3 over a maximum of 30 hops: 
-
-  1   0 ms      0 ms      0 ms      192.168.1.1
-  2   0 ms      0 ms      0 ms      10.1.1.2
-  3   0 ms      0 ms      0 ms      10.2.2.1
-  4   0 ms      10 ms     11 ms     192.168.3.3
-
-Trace complete.
-
+Tracing route to 192.168.3.3 over a maximum of 30 hops:   
+  1   0 ms      0 ms      0 ms      192.168.1.1  
+  2   0 ms      0 ms      0 ms      10.1.1.2  
+  3   0 ms      0 ms      0 ms      10.2.2.1  
+  4   0 ms      10 ms     11 ms     192.168.3.3  
+Trace complete.  
 
 C:\>ping 192.168.3.3
+Pinging 192.168.3.3 with 32 bytes of data:  
+Reply from 192.168.3.3: bytes=32 time<1ms TTL=125  
+Reply from 192.168.3.3: bytes=32 time=1ms TTL=125  
+Reply from 192.168.3.3: bytes=32 time=17ms TTL=125  
+Reply from 192.168.3.3: bytes=32 time=10ms TTL=125  
+Ping statistics for 192.168.3.3:  
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),  
+Approximate round trip times in milli-seconds:  
+Minimum = 0ms, Maximum = 17ms, Average = 7ms 
 
-Pinging 192.168.3.3 with 32 bytes of data:
-
-Reply from 192.168.3.3: bytes=32 time<1ms TTL=125
-
-Reply from 192.168.3.3: bytes=32 time=1ms TTL=125
-
-Reply from 192.168.3.3: bytes=32 time=17ms TTL=125
-
-Reply from 192.168.3.3: bytes=32 time=10ms TTL=125
-
-Ping statistics for 192.168.3.3:
-
-Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-
-Approximate round trip times in milli-seconds:
-
-Minimum = 0ms, Maximum = 17ms, Average = 7ms __
 
 ## Часть 2: Настройка административных ролей
 
