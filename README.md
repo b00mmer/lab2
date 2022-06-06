@@ -31,26 +31,17 @@
 
 6.  Проверьте связь между Server0 и PC0.
 
-__ C:\>ping 192.168.1.3
+C:\>ping 192.168.1.3  
+Pinging 192.168.1.3 with 32 bytes of data:  
+Reply from 192.168.1.3: bytes=32 time<1ms TTL=125  
+Reply from 192.168.1.3: bytes=32 time=1ms TTL=125  
+Reply from 192.168.1.3: bytes=32 time=10ms TTL=125  
+Reply from 192.168.1.3: bytes=32 time=10ms TTL=125  
+Ping statistics for 192.168.1.3:  
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),  
+Approximate round trip times in milli-seconds:  
+Minimum = 0ms, Maximum = 10ms, Average = 5ms  
 
-Pinging 192.168.1.3 with 32 bytes of data:
-
-Reply from 192.168.1.3: bytes=32 time<1ms TTL=125
-
-Reply from 192.168.1.3: bytes=32 time=1ms TTL=125
-
-Reply from 192.168.1.3: bytes=32 time=10ms TTL=125
-
-Reply from 192.168.1.3: bytes=32 time=10ms TTL=125
-
-Ping statistics for 192.168.1.3:
-
-Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-
-Approximate round trip times in milli-seconds:
-
-Minimum = 0ms, Maximum = 10ms, Average = 5ms
-	
 C:\>tracert 192.168.1.3
 
 Tracing route to 192.168.1.3 over a maximum of 30 hops: 
