@@ -106,7 +106,7 @@ Exec commands:
     Vlan1                  unassigned      YES unset  administratively down down  
 
 >R1#show ip route   
->           ^   
+>            ^   
 >% Invalid input detected at '^' marker.  
 
 
